@@ -1,0 +1,33 @@
+# Control de versiones
+.git
+.gitignore
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de caché
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Archivos de sistema
+.DS_Store
+
+# Archivos de Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Archivos de desarrollo
+.vscode/
+.idea/
+
+# Archivos de prueba
+tests/
