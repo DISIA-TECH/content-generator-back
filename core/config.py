@@ -25,8 +25,8 @@ class Settings(BaseSettings):
     DEFAULT_MAX_TOKENS: int = int(os.getenv("DEFAULT_MAX_TOKENS", "2000")) 
 
     MODEL_GPT4O: str = "gpt-4o" 
-    MODEL_PABLO_FINETUNED: str = os.getenv("MODEL_PABLO_FINETUNED", "ft:gpt-4o-2024-08-06:disia:pablo-estilo-v1:BS3tYmqt") 
-    MODEL_AITOR_FINETUNED: str = os.getenv("MODEL_AITOR_FINETUNED", "ft:gpt-4o-2024-08-06:disia:aitor-estilo-v1:BeZfjkZ9")
+    MODEL_PABLO_FINETUNED: str = os.getenv("MODEL_PABLO_FINETUNED", "ft:gpt-4o-2024-08-06:disia:pablo-estilo-v2:BfCcWUxQ") 
+    MODEL_AITOR_FINETUNED: str = os.getenv("MODEL_AITOR_FINETUNED", "ft:gpt-4o-2024-08-06:disia:aitor-estilo-v1:BfAc24gm")
     MODEL_WEB_SEARCH: str = os.getenv("MODEL_WEB_SEARCH", "gpt-4o") 
 
     MODEL_MAPPING: Dict[str, str] = {
